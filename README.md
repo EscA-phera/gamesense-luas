@@ -1,2 +1,2 @@
-# gamesense_luas
+# gamesense-luas
 LUA scripts for gamesense.pub
