@@ -1501,7 +1501,7 @@ local function on_run_command(event)
 		ui.set(ref_body_yaw_slider, default_body_yaw_offset)
 
 		anti_bruteforce_state = false
-		client.color_log(0, 255, 127, "[AB] Timed out, resetting angle")
+		client.color_log(0, 255, 127, "[AB] Timed out, resetting angles")
 	end
 end
 --endregion
