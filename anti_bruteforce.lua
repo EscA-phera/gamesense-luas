@@ -1413,13 +1413,13 @@ end
 local enable_anti_bruteforce = ui.new_checkbox("LUA", "A", "Enable anti bruteforce")
 local anti_bruteforce_timeout = ui.new_slider("LUA", "A", "Timeout", 0, 30, 10)
 
-local default_yaw_offset = ui.new_slider("LUA", "A", "Default Yaw Offset", -180, 180, 0)
-local max_yaw_delta = ui.new_slider("LUA", "A", "Max Yaw Delta", 0, 180, 0)
-local yaw_step = ui.new_slider("LUA", "A", "Yaw Step", 1, 10, 5)
+local default_yaw_offset = ui.new_slider("LUA", "A", "Default yaw offset", -180, 180, 0)
+local max_yaw_delta = ui.new_slider("LUA", "A", "Max yaw delta", 0, 180, 0)
+local yaw_step = ui.new_slider("LUA", "A", "Yaw step", 1, 10, 5)
 
-local default_body_yaw_offset = ui.new_slider("LUA", "A", "Default Body Yaw Offset", -180, 180, 0)
-local max_body_yaw_delta = ui.new_slider("LUA", "A", "Max Body Yaw Delta", 0, 180, 0)
-local body_yaw_step = ui.new_slider("LUA", "A", "Body Yaw Step", 1, 10, 5)
+local default_body_yaw_offset = ui.new_slider("LUA", "A", "Default body yaw offset", -180, 180, 0)
+local max_body_yaw_delta = ui.new_slider("LUA", "A", "Max body yaw delta", 0, 180, 0)
+local body_yaw_step = ui.new_slider("LUA", "A", "Body yaw step", 1, 10, 5)
 
 local ref_yaw, ref_yaw_slider = ui.reference("AA", "Anti-aimbot angles", "Yaw")
 local ref_body_yaw, ref_body_yaw_slider = ui.reference("AA", "Anti-aimbot angles", "Body Yaw")
