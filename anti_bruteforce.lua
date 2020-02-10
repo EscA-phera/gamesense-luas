@@ -1498,7 +1498,7 @@ local function on_run_command(event)
 		ui.set(ref_yaw, "180")
 		ui.set(ref_yaw_slider, ui.get(default_yaw_offset))
 		ui.set(ref_body_yaw, "Static")
-		ui.set(ref_body_yaw_slider, 90)
+		ui.set(ref_body_yaw_slider, default_body_yaw_offset)
 
 		anti_bruteforce_state = false
 		client.color_log(0, 255, 127, "[AB] Timed out, resetting angle")
@@ -1510,7 +1510,7 @@ end
 ui.set(ref_yaw, "180")
 ui.set(ref_yaw_slider, ui.get(default_yaw_offset))
 ui.set(ref_body_yaw, "Static")
-ui.set(ref_body_yaw_slider, 90)
+ui.set(ref_body_yaw_slider, ui.get(default_body_yaw_offset))
 
 handle_ui()
 ui.set_callback(enable_anti_bruteforce, handle_ui)
