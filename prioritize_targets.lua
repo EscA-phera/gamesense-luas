@@ -1024,10 +1024,8 @@ local function handle_ui()
 end
 
 local function set_priortize_player(entity, status)
-    local player_list_backup = ui.get(ref_player_list)
     ui.set(ref_player_list, entity)
     ui.set(ref_priortize, status)
-    ui.set(ref_player_list, player_list_backup)
 end
 
 local function on_net_update_end()
